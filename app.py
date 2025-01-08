@@ -77,9 +77,9 @@ def load_model():
                 model.load_weights('plant_disease11.keras')
             except:
                 try:
-                    model = tf.keras.models.load_model('plant_disease1.h5')
+                    model = tf.keras.models.load_model('plant_disease14.h5')
                 except:
-                    model.load_weights('plant_disease1.h5')
+                    model.load_weights('plant_disease14.h5')
         
         return model
     except Exception as e:
