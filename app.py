@@ -119,7 +119,7 @@ def display_prediction(predicted_class, confidence, fertilizer_advice):
     
     with col1:
         st.markdown("""
-            <div style='background-color: #f0f2f6; padding: 20px; border-radius: 10px; margin-bottom: 20px;'>
+            <div style='background-color: black; padding: 20px; border-radius: 10px; margin-bottom: 20px;'>
                 <h4 style='color: #1f77b4; margin-bottom: 10px;'>Disease Detection Results</h4>
                 <p><strong>Detected Condition:</strong> {}</p>
                 <p><strong>Confidence:</strong> {:.2f}%</p>
@@ -128,7 +128,7 @@ def display_prediction(predicted_class, confidence, fertilizer_advice):
 
     with col2:
         st.markdown("""
-            <div style='background-color: #e8f5e9; padding: 20px; border-radius: 10px; margin-bottom: 20px;'>
+            <div style='background-color: black; padding: 20px; border-radius: 10px; margin-bottom: 20px;'>
                 <h4 style='color: #2e7d32; margin-bottom: 10px;'>Fertilizer Recommendation</h4>
                 <p>{}</p>
             </div>
