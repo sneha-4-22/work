@@ -153,7 +153,7 @@ def main():
     """, unsafe_allow_html=True)
 
     # Header
-    st.title("🌿 Plant Disease Detection and Fertilizer Recommendation")
+    st.title("🌿 Fertilizer and disease recommendation system")
     st.markdown("Upload a leaf image to detect diseases and get fertilizer recommendations")
 
     # File uploader
